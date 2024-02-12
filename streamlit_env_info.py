@@ -64,7 +64,7 @@ def display_data_in_tabs(data, columns, sort_keys=False):
         st.code(json_data, language='json')
 
 
-st.title('My Streamlit Environment')
+st.title('Streamlit Environment Info')
 
 # Display Streamlit version
 streamlit_version = st.__version__
